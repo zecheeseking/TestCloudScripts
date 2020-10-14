@@ -318,3 +318,7 @@ handlers.RoomEventRaised = function (args) {
             break;
     }
 };
+
+handlers.TestWebhook = function(args) {
+    log.debug("TestWebhook pinged!");
+}
